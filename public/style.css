@@ -1,0 +1,18 @@
+#oceanImage {
+    width: 1000px;
+    height: auto;
+}
+
+body.light-mode {
+    background-color: white;
+    color: red;
+}
+
+body.dark-mode {
+    background-color: darkblue;
+    color: white;
+}
+
+h1 {
+    color: cyan;
+}
