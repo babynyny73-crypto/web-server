@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="{{THEME_CLASS}}">
-  <h1>Welcome to Station [Your Name]!</h1>
-  <p>Connected via local network.</p>
-  <h3>Total Server Visit: <span id="visitCount">{{COUNT}}</span></h3>
-  <p>Your random fact is: {{FACT}}</p>
-  <p>Did you know? {{ANIMAL_FACT}}</p>
+<body>
+    <nav class="nav-links" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/guestbook">Guestbook</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/space">Space</a>
+    </nav>
+    <h1>That girl's Express server</h1>
+    <p>I hope you enjoy my page</p>
+    <div id="login-section">
+        <h2>login</h2>
+        <form id="login-form" action="/login" method="post">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required>
+            <label><input type="checkbox" name="rememberMe" /> Remember me</label>
 
-  <img src="./ocean.jpg" alt="Ocean" id="oceanImage" -------">
-  <nav>
-    <a href="/">Home</a>
-    <a href="/projects">Projects</a>
-    <a href="/about">About</a>
-    <a href="/?theme=dark">Dark Theme</a>
-    <a href="/?theme=light">Light Theme</a>
-  </nav>
+            <button type="submit">login</button>
+        </form>
+    </div>
 
-  <script src=" script.js"></script>
+    <p id="status"></p>
+    <p id="login-message" role="status"></p>
+    <button id="logout-button" type="button" hidden>Log Out</button>
+
+    <script src="/js/logout.js"></script>
+    <script src="/js/login.js"></script>
+
 </body>
 
 </html>
