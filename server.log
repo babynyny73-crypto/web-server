@@ -1,19 +1,62 @@
-[2026-09-15T16:34:23.080Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:34:30.474Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:34:31.305Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:34:33.841Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:34:37.147Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:34:37.149Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:35:44.420Z] 127.0.0.1 | Method: GET | Path: /shoutbox
-[2026-09-15T16:35:52.229Z] 127.0.0.1 | Method: GET | Path: /
-[2026-09-15T16:35:52.250Z] 127.0.0.1 | Method: GET | Path: /style.css
-[2026-09-15T16:35:52.252Z] 127.0.0.1 | Method: GET | Path: /ocean.jpg
-[2026-09-15T16:35:52.278Z] 127.0.0.1 | Method: GET | Path: /script.js
-[2026-09-15T16:35:55.238Z] 127.0.0.1 | Method: GET | Path: /
-[2026-09-15T16:35:55.250Z] 127.0.0.1 | Method: GET | Path: /style.css
-[2026-09-15T16:35:55.251Z] 127.0.0.1 | Method: GET | Path: /script.js
-[2026-09-15T16:35:55.250Z] 127.0.0.1 | Method: GET | Path: /ocean.jpg
-[2026-09-15T16:36:37.344Z] 127.0.0.1 | Method: GET | Path: /
-[2026-09-15T16:36:37.354Z] 127.0.0.1 | Method: GET | Path: /style.css
-[2026-09-15T16:36:37.356Z] 127.0.0.1 | Method: GET | Path: /ocean.jpg
-[2026-09-15T16:36:37.384Z] 127.0.0.1 | Method: GET | Path: /script.js
+[2026-10-28T16:27:22.828Z] GET /
+[2026-10-28T16:27:22.902Z] GET /styles.css
+[2026-10-28T16:27:22.905Z] GET /js/index.js
+[2026-10-28T16:27:22.920Z] GET /api/whoami
+[2026-10-28T16:27:22.922Z] GET /favicon.ico
+[2026-10-28T16:27:30.655Z] POST /login
+[2026-10-28T16:28:14.012Z] POST /login
+[2026-10-28T16:28:17.969Z] POST /login
+[2026-10-28T16:28:19.538Z] POST /login
+[2026-10-28T16:28:25.514Z] POST /login
+[2026-10-28T16:38:12.719Z] GET /register
+[2026-10-28T16:38:12.787Z] GET /js/register.js
+[2026-10-28T16:38:12.788Z] GET /styles.css
+[2026-10-28T16:38:24.927Z] POST /register
+[2026-10-28T16:38:37.320Z] POST /register
+[2026-10-28T16:38:49.987Z] GET /register
+[2026-10-28T16:38:49.999Z] GET /styles.css
+[2026-10-28T16:38:50.001Z] GET /js/register.js
+[2026-10-28T16:39:06.519Z] POST /register
+[2026-10-28T16:39:06.740Z] GET /guestbook
+[2026-10-28T16:39:06.778Z] GET /styles.css
+[2026-10-28T16:39:06.779Z] GET /js/guestbook.js
+[2026-10-28T16:39:06.783Z] GET /api/whoami
+[2026-10-28T16:39:06.800Z] GET /api/guestbook
+[2026-10-28T16:39:19.183Z] POST /api/guestbook
+[2026-10-28T16:39:19.206Z] GET /api/guestbook
+[2026-10-28T17:02:38.110Z] GET /guestbook
+[2026-10-28T17:02:38.114Z] GET /
+[2026-10-28T17:02:38.126Z] GET /styles.css
+[2026-10-28T17:02:38.130Z] GET /js/index.js
+[2026-10-28T17:02:38.137Z] GET /api/whoami
+[2026-10-28T17:03:41.278Z] GET /
+[2026-10-28T17:03:41.293Z] GET /styles.css
+[2026-10-28T17:03:41.295Z] GET /js/index.js
+[2026-10-28T17:03:41.299Z] GET /api/whoami
+[2026-10-28T17:08:17.467Z] POST /register
+[2026-10-28T17:08:17.779Z] GET /api/guestbook
+[2026-10-28T17:08:17.784Z] POST /api/guestbook
+[2026-10-28T17:08:17.797Z] POST /api/guestbook
+[2026-10-28T17:08:17.808Z] POST /api/guestbook
+[2026-10-28T17:08:17.811Z] POST /api/guestbook
+[2026-10-28T17:08:17.813Z] POST /api/guestbook
+[2026-10-28T17:08:17.818Z] GET /api/guestbook
+[2026-10-28T17:30:51.940Z] POST /register
+[2026-10-28T17:30:51.955Z] POST /login
+[2026-10-28T17:30:52.250Z] GET /api/guestbook
+[2026-10-28T17:30:52.255Z] POST /api/guestbook
+[2026-10-28T17:30:52.256Z] BOT BLOCKED (honeypot filled) from ::1 on /api/guestbook
+[2026-10-28T17:30:52.258Z] POST /api/guestbook
+[2026-10-28T17:30:52.258Z] BOT BLOCKED (honeypot filled) from ::1 on /api/guestbook
+[2026-10-28T17:30:52.260Z] POST /api/guestbook
+[2026-10-28T17:30:52.260Z] BOT BLOCKED (honeypot filled) from ::1 on /api/guestbook
+[2026-10-28T17:30:52.262Z] POST /api/guestbook
+[2026-10-28T17:30:52.262Z] BOT BLOCKED (honeypot filled) from ::1 on /api/guestbook
+[2026-10-28T17:30:52.264Z] POST /api/guestbook
+[2026-10-28T17:30:52.264Z] BOT BLOCKED (honeypot filled) from ::1 on /api/guestbook
+[2026-10-28T17:30:52.266Z] GET /api/guestbook
+[2026-10-30T17:01:59.195Z] GET /
+[2026-10-30T17:01:59.266Z] GET /styles.css
+[2026-10-30T17:01:59.270Z] GET /js/index.js
+[2026-10-30T17:01:59.275Z] GET /api/whoami
+[2026-10-30T17:01:59.288Z] GET /favicon.ico
