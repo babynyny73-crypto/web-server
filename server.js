@@ -247,6 +247,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/guestbook', requireLoginPage, (req, res) => {
+    req.session.formLoadedAt = Date.now(); // start the clock
     res.sendFile(path.join(PUBLIC_DIR, 'guestbook.html'));
 });
 
